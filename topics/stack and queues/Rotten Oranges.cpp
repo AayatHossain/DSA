@@ -1,3 +1,5 @@
+multisource bfs. T = O(n*m) S = O(n*m)
+
 class Solution {
   public:
     vector<int> dx = {1,0,-1,0};
