@@ -1,5 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+void printOrder(vector<vector<int>>& s, int i, int j){
+    if(i == j){
+        cout << "A" << i;
+        return;
+    }
+    cout << "(";
+
+    printOrder(s, i, s[i][j]);
+    printOrder(s, s[i][j] + 1, j);
+
+    cout << ")";
+}
+
+
 signed main(){
     int size; cin>>size;
     vector<int> a(size);
@@ -40,5 +55,6 @@ signed main(){
         }
         cout<<endl;
     }
+    printOrder(s, 1, n);
     return 0;
 }
