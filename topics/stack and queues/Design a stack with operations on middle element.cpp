@@ -1,3 +1,8 @@
+Approach: Using a stack and a deque, lower half elements are stored in stack 
+            and upper half elements are stored in deque
+Time complexity: O(1) for all operations
+Space complexity: O(n) for the stack and deque
+
 #include <bits/stdc++.h>
 using namespace std;
 
