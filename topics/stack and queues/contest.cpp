@@ -16,7 +16,7 @@ signed main(){
             mn = min(mn, a[i]);
             mx = max(mx, a[i]);
         }
-
+ 
         int diff = mx - mn;
         int v = diff/2;
         int mid = mn + v;
