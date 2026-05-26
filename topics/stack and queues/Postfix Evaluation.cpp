@@ -1,3 +1,7 @@
+Apprach1: Using stack
+Time complexity: O(n) where n is the number of elements in the postfix expression
+Space complexity: O(n) for the stack
+
 class Solution {
 	public:
 	
