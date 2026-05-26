@@ -1,6 +1,3 @@
-Apprach1: Using stack
-Time complexity: O(n) where n is the number of elements in the postfix expression
-Space complexity: O(n) for the stack
 class Solution {
 	public:
 	
@@ -37,9 +34,9 @@ class Solution {
 		int n = a.size();
 		stack<int> s;
 		for (int i = 0; i < n; i++) {
-			bool isChar = a[i] == "+" || a[i] == "-" || a[i] == "*" || a[i] == "/"
+			bool isOP = a[i] == "+" || a[i] == "-" || a[i] == "*" || a[i] == "/"
 			 || a[i] == "^" ;
-			if (isChar) {
+			if (isOP) {
 				int v2 = s.top();
 				s.pop();
 				int v1 = s.top();
