@@ -1,3 +1,4 @@
+Link:https://www.geeksforgeeks.org/problems/queue-reversal/1
 Approach1: Using stack
 Time complexity: O(n) where n is the number of elements in the queue
 Space complexity: O(n) for the stack
